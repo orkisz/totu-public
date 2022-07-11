@@ -1,11 +1,9 @@
-import * as React from "react"
+import * as React from 'react'
 import Layout from '../layouts';
 
 const IndexPage = () => {
   return (
-    <Layout>
-      Siema!
-    </Layout>
+    <span>Siema!</span>
   )
 }
 

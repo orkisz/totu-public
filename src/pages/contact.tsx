@@ -3,9 +3,7 @@ import Layout from '../layouts';
 
 const ContactPage = () => {
   return (
-    <Layout>
-      +43242323
-    </Layout>
+    <span>+43242323</span>
   )
 }
 
