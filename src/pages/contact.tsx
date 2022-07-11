@@ -1,12 +1,12 @@
 import * as React from "react"
 import Layout from '../layouts';
 
-const IndexPage = () => {
+const ContactPage = () => {
   return (
     <Layout>
-      Siema!
+      +43242323
     </Layout>
   )
 }
 
-export default IndexPage
+export default ContactPage
