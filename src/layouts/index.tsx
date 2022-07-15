@@ -7,7 +7,7 @@ export interface LayoutProps {
 function Layout({ children }: LayoutProps) {
   return (
     <>
-      <main>
+      <main className="flex flex-col min-h-screen overflow-hidden">
         {children}
       </main>
     </>
