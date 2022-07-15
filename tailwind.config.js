@@ -6,6 +6,9 @@ module.exports = {
     './src/layouts/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
+    fontFamily: {
+      sans: 'Montserrat, Arial, sans-serif'
+    },
     extend: {}
   },
   plugins: []

@@ -13,6 +13,16 @@ const config: GatsbyConfig = {
     `gatsby-plugin-layout`,
     'gatsby-plugin-postcss',
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `montserrat`,
+          `ubuntu`
+        ],
+        display: 'swap'
+      }
+    },
     // {
     //   resolve: 'gatsby-plugin-google-analytics',
     //   options: {
