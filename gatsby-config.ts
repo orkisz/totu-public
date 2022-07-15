@@ -11,6 +11,7 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     `gatsby-plugin-layout`,
+    'gatsby-plugin-postcss',
     'gatsby-plugin-sass',
     // {
     //   resolve: 'gatsby-plugin-google-analytics',
