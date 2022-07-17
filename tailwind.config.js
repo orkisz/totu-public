@@ -9,7 +9,12 @@ module.exports = {
     fontFamily: {
       sans: 'Montserrat, Arial, sans-serif'
     },
-    extend: {}
+    extend: {
+      colors: {
+        primary: 'rgb(var(--color-primary))',
+        secondary: 'rgb(var(--color-secondary))',
+      },
+    }
   },
   plugins: []
 }
