@@ -7,21 +7,23 @@ const IndexPage = () => {
   return (
     <>
       <section className="relative">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="md:grid md:grid-cols-12 md-gap-8">
-            <div className="max-w-xl md:max-w-none md:max-w-full mx-auto md:col-span-5">
-              <img className="my-8"
+        <div className="max-w-6xl mx-auto">
+          <div className="md:grid md:grid-cols-12">
+            <div className="my-8 col-span-12 mx-auto md:mx-0 max-w-xl px-4 sm:px-6">
+              <img className=""
                    src={logo}/>
-              <div className="text-5xl mt-16 md:mb-60 mb-12">
-                Projekty graficzne skrojone na miarę Twoich potrzeb.
+            </div>
+            <div className="order-2 md:col-span-7 h-[476px] overflow-hidden md:overflow-visible relative md:static">
+              <img className="min-w-[502px] min-h-[497px] md:absolute md:bottom-0 absolute bottom-0"
+                   src={bg_top}/>
+              <div className="relative">
+                <img className="absolute top-[-62px] md:top-0 md:top-[100px] left-[24vw] md:left-[133px] w-[485px]"
+                     src={photoBanner}/>
               </div>
             </div>
-            <div className="hidden md:block md:col-span-7">
-              <img className="absolute bottom-0"
-                   src={bg_top}/>
-              <div className="relative hidden md:block">
-                <img className="absolute top-[100px] left-[133px]"
-                     src={photoBanner}/>
+            <div className="order-1 max-w-xl md:max-w-none md:max-w-full mx-auto md:col-span-5 px-4 sm:px-6">
+              <div className="text-5xl mt-16 md:mb-60 mb-12">
+                Projekty graficzne skrojone na miarę Twoich potrzeb.
               </div>
             </div>
           </div>
@@ -37,7 +39,9 @@ const IndexPage = () => {
             <p>
               TOTU mamy ciekawe pomysły, które odzwierciedlą charakter Twojej marki.
             </p>
-            <a className="inline-block bg-primary text-secondary font-bold py-3 px-10 mt-16 border border-secondary rounded" href="#">Portfolio</a>
+            <a className="inline-block bg-primary text-secondary font-bold py-3 px-10 mt-16 border border-secondary rounded"
+               href="#">Portfolio
+            </a>
           </div>
         </div>
       </section>
