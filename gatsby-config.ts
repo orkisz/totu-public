@@ -1,6 +1,7 @@
 import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
+  pathPrefix: `/totu-public`,
   siteMetadata: {
     title: `TOTU`,
     siteUrl: `https://www.yourdomain.tld`
