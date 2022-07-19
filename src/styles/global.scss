@@ -8,3 +8,9 @@
     --color-secondary: 7 33 56;
   }
 }
+
+@layer components {
+  .button-primary {
+    @apply bg-primary text-secondary font-bold py-3 px-10 border border-secondary rounded;
+  }
+}

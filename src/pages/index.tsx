@@ -39,7 +39,7 @@ const IndexPage = () => {
             <p>
               TOTU mamy ciekawe pomysły, które odzwierciedlą charakter Twojej marki.
             </p>
-            <a className="inline-block bg-primary text-secondary font-bold py-3 px-10 mt-16 border border-secondary rounded"
+            <a className="button-primary inline-block mt-16"
                href="#">Portfolio
             </a>
           </div>
