@@ -1,9 +1,11 @@
 import { graphql } from 'gatsby';
-import { I18nextContext, useTranslation } from 'gatsby-plugin-react-i18next';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 import * as React from 'react'
+import LogoPrefixed from '../components/logo-prefixed/logo-prefixed';
 import bg_top from '../images/bg_top_section.png';
 import logo from '../images/logo.png';
 import photoBanner from '../images/photo_banner.png';
+import graphicDesignerSketchDesignLogo from '../images/graphic-designer-sketch-design-logo.jpg';
 
 const IndexPage = () => {
   const { t } = useTranslation();
@@ -56,7 +58,14 @@ const IndexPage = () => {
         </div>
       </section>
       <section>
-        <header className="mt-11 text-center text-lg font-semibold">{t('index.section-3.what-we-do')}</header>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-11">
+          <header className="text-center text-lg font-semibold">{t('index.section-3.what-we-do')}</header>
+          <div>
+            <img src={graphicDesignerSketchDesignLogo}/>
+            <LogoPrefixed>LOGO</LogoPrefixed>
+          </div>
+        
+        </div>
       </section>
     </>
   )
