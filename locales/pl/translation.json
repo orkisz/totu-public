@@ -1,0 +1,25 @@
+{
+    "index": {
+        "section-1": {
+          "text-1": "Projekty graficzne skrojone na miarę <strong>Twoich potrzeb.</strong>",
+          "text-2": "Wystarczy, że napiszesz do nas wiadomość, a my przygotujemy bezpłatną wycenę zlecenia.",
+          "send-message": "Napisz wiadomość",
+          "see-portfolio": "Zobacz portfolio"
+        },
+        "section-2": {
+            "text-1": "Jesteś właścicielem firmy i chcesz odświeżyć jej wizerunek, a może jesteś na etapie zakładania działalności i potrzebujesz kreacji graficznej swojego projektu?",
+            "text-2": "W TOTU mamy ciekawe pomysły, które odzwierciedlą charakter Twojej marki.",
+            "topics-list": {
+              "topic-1": "LOGO",
+              "topic-2": "Branding/Rebranding",
+              "topic-3": "Identyfikacja wizualna",
+              "topic-4": "Social Media",
+              "topic-5": "Projekty stron www",
+              "topic-6": "Ilustracje"
+            }
+        },
+        "section-3": {
+          "what-we-do": "Czym się zajmujemy"
+        }
+    }
+}

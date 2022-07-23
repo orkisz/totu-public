@@ -4,13 +4,17 @@
 
 @layer base {
   :root {
-    --color-primary: 226 255 0;
-    --color-secondary: 7 33 56;
+    --color-primary: 253 224 71;
+    --color-secondary: 5 52 80;
   }
 }
 
 @layer components {
   .button-primary {
-    @apply bg-primary text-secondary font-bold py-3 px-10 border border-secondary rounded;
+    @apply bg-primary text-secondary font-bold font-secondary text-sm p-3 border border-primary rounded inline-block;
+  }
+
+  .button-secondary {
+    @apply bg-white text-secondary font-bold font-secondary text-sm p-3 border border-secondary rounded inline-block;
   }
 }

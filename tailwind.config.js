@@ -14,6 +14,9 @@ module.exports = {
         primary: 'rgb(var(--color-primary))',
         secondary: 'rgb(var(--color-secondary))',
       },
+      fontFamily: {
+        secondary: 'Quicksand, sans-serif'
+      }
     }
   },
   plugins: []
