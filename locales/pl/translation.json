@@ -19,7 +19,18 @@
             }
         },
         "section-3": {
-          "what-we-do": "Czym się zajmujemy"
+          "what-we-do": "Czym się zajmujemy",
+          "logo": "LOGO",
+          "logo-description": "Przeciętnie na „oglądanie” loga klienci przeznaczają nie więcej niż sekundę. Musi być ono oryginalne w swojej prostocie, aby od razu kojarzyło się z marką, którą reprezentuje.",
+          "branding": "Branding",
+          "branding-description": "Wszystkie materiały, które są potrzebne do funkcjonowania marki w świadomości klientów. Dobór kolorów, fontów pomoże zbudować oryginalną, w Twoim charakterze identyfikację wizualną, np. wizytówki, ulotki czy banery. Jeśli potrzebujesz hasło reklamowe lub teksty na stronę internetową to jesteś we właściwym miejscu.",
+          "social-media": "Social Media",
+          "social-media-description": "Czy jest mi to potrzebne? Trochę statystyki: „wśród użytkowników mediów społecznościowych znajdziemy osoby w każdym wieku – najwięcej będzie tych w wieku od 18 do 44 roku życia, ale w social mediach aktywnych jest także wiele osób powyżej 55<sup>1</sup>. Publikowanie atrakcyjnych treści to świetny sposób na pozyskanie nowych klientów. Dzięki zestawom szablonów tworzenie nowych postów stanie się łatwe i przyjemne.",
+          "web-pages": "Strony www",
+          "web-pages-description": "Projektuję strony, na które Twoi Klienci chętnie wracają. Są intuicyjne w obsłudze, przyjemne dla oka, przemyślane pod kątem User expierience, ale Ty nie musisz zaprzątać sobie tym głowy. Mają dobrze służyć Tobie i Twoim Klientom."
         }
+    },
+    "shared": {
+      "know-more": "Dowiedz się więcej"
     }
 }
