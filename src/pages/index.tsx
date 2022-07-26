@@ -27,9 +27,9 @@ const IndexPage = () => {
               <img className="absolute top-[-39px] md:top-auto w-auto h-[389px] md:h-auto right-[-37px] md:right-[-68px] md:bottom-[-48px] lg:bottom-[-150px]" src={photoBanner} aria-hidden="true" />
             </div>
             <div className="order-1 max-w-xl md:max-w-full md:col-span-6">
-              <p className="text-[28px] leading-[37px] mt-3.5 md:mb-60 mb-9" dangerouslySetInnerHTML={{ __html: t('index.section-1.text-1') }} />
-              <p className="font-semibold">{t('index.section-1.text-2')}</p>
-              <div className="mt-6 mb-9">
+              <p className="text-[28px] md:text-5xl leading-[37px] mt-3.5 md:mt-32 mb-9 md:mb-8" dangerouslySetInnerHTML={{ __html: t('index.section-1.text-1') }} />
+              <p className="font-semibold font-secondary md:text-2xl" dangerouslySetInnerHTML={{ __html: t('index.section-1.text-2')}} />
+              <div className="mt-6 md:mt-11 mb-9 md:mb-28">
                 <a className="button-primary mr-2" href="#">{t('index.section-1.send-message')}</a>
                 <a className="button-secondary" href="#">{t('index.section-1.see-portfolio')}</a>
               </div>
@@ -37,7 +37,7 @@ const IndexPage = () => {
           </div>
         </CenteredContainer>
       </section>
-      <section className="bg-secondary text-white py-9">
+      <section className="bg-secondary text-white py-9 md:py-20">
         <CenteredContainer>
           <div className="max-w-xl">
             <p className="mb-6">
